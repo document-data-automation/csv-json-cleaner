@@ -1,0 +1,8 @@
+Customer ID,Full Name,Email Address,Signup Date,Lifetime Value,Active,Notes
+ 001 ,"  Ada Lovelace ",ADA@example.com ,01/15/2021,"$1,234.50",Yes,
+002,Grace Hopper,grace@example.com,2021-03-04,"€2,000",yes,"VIP"
+003, Alan Turing ,alan@example.com,"March 5, 2021",£980,no,
+002,Grace Hopper,grace@example.com,2021-03-04,"€2,000",yes,"VIP"
+004,Katherine Johnson,katherine@example.com,12/31/2020,"1,050.00",Y,
+,,,,,,
+005,Margaret Hamilton, margaret@example.com ,07/04/2021,"$0",N,"Apollo"

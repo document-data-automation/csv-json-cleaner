@@ -1,0 +1,4 @@
+SKU;Product Name;Price;In Stock;Last Restocked
+SKU-1;Widget;12,50;true;15.06.2023
+SKU-2;Gadget;1.299,00;false;2023-06-20
+SKU-3;Gizmo;9,99;t;20/06/2023

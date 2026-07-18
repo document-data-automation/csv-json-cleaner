@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-json-cleaner"
+version = "0.1.0"
+description = "A no-nonsense cleaner for messy CSV/JSON tabular data, with a visible before/after diff report."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "document-data-automation", email = "288112685+document-data-automation@users.noreply.github.com" },
+]
+keywords = [
+    "csv",
+    "json",
+    "data-cleaning",
+    "etl",
+    "data-wrangling",
+    "tabular",
+    "cli",
+    "data-automation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+csv-json-cleaner = "csv_json_cleaner.cli:main"
+
+[project.urls]
+Homepage = "https://document-data-automation.com"
+Repository = "https://github.com/document-data-automation/csv-json-cleaner"
+Issues = "https://github.com/document-data-automation/csv-json-cleaner/issues"
+
+[tool.setuptools.packages.find]
+include = ["csv_json_cleaner*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

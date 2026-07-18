@@ -1,0 +1,30 @@
+[
+  {
+    "Order ID": "  A-1001 ",
+    "Order Date": "03/14/2022",
+    "Amount": "$1,299.00",
+    "Paid": "true",
+    "Currency": ""
+  },
+  {
+    "Order ID": "A-1002",
+    "Order Date": "2022-03-15",
+    "Amount": "€49.99",
+    "Paid": "false",
+    "Currency": ""
+  },
+  {
+    "Order ID": "A-1002",
+    "Order Date": "2022-03-15",
+    "Amount": "€49.99",
+    "Paid": "false",
+    "Currency": ""
+  },
+  {
+    "Order ID": "A-1003",
+    "Order Date": "March 16, 2022",
+    "Amount": "1,000",
+    "Paid": "yes",
+    "Currency": ""
+  }
+]
