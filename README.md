@@ -10,8 +10,7 @@ in one export and `full_name` in the next, and half the rows are exact duplicate
 That mess quietly breaks joins, inflates totals, and poisons everything downstream.
 `csv-json-cleaner` runs a pipeline of small, predictable fixes and then *shows you
 what it changed*, so cleaning is auditable instead of a black box. It's the hands-on
-companion to the CSV/JSON cleaning walkthrough at
-<https://document-data-automation.com/python-for-excel-csv-data-processing>.
+companion to the [CSV/JSON cleaning walkthrough](https://document-data-automation.com/python-for-excel-csv-data-processing).
 
 - Pure Python standard library — **no third-party dependencies**.
 - Every fix is an independent rule you can toggle off.
